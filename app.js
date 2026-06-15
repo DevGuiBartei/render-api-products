@@ -23,7 +23,7 @@ async function inicializarBanco() {
   const client = new Client({
     connectionString:
       
-      "postgresql://admin:0TpuBE3iMGf54ZJEoaxtbUcsddJGfX8l@dpg-d8ntovok1i2s73ahp58g-a/db_products_di2g?ssl=true",
+      "postgresql://admin:0TpuBE3iMGf54ZJEoaxtbUcsddJGfX8l@dpg-d8ntovok1i2s73ahp58g-a.ohio-postgres.render.com/db_products_di2g?ssl=true",
   });
 
   try {
